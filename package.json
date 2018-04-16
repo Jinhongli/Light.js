@@ -1,0 +1,13 @@
+{
+  "name": "Light",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c --environment production"
+  },
+  "devDependencies": {
+    "rollup": "^0.57.1",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
